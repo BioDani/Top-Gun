@@ -1,5 +1,6 @@
 ![Logo workshop https://app.brandmark.io](../images/module1-Workshop.png)
 
+
 # Exercises Getting Started with Python
 
 1. [Exercise 1](scripts/exercise_1_1.py)
@@ -8,7 +9,7 @@
 
 2. [Exercise 2](scripts/exercise_1_2.py)
 
-    Create a Python program that reads a text file and counts the occurrences of each word using a dictionary. The program should print the words and their counts.
+    Create a Python program that converts a temperature from Fahrenheit to Celsius. The user should enter the temperature in Fahrenheit, and the program should print the equivalent temperature in Celsius.
 
 # Control Structures and Loops
 
