@@ -19,7 +19,7 @@ def main():
         f = float(input('Insert the temperature (°F):'))  
         assert isinstance(f, float)
         if f >= -459.67:
-            c = "%.3f"%convert_F_to_C(f)
+            c = "%.2f"%convert_F_to_C(f)
             print(f'{"%.2f"%f} °F is equal to {c} °C.')
         else:
             c = "%.2f"%convert_F_to_C(f)
