@@ -18,6 +18,23 @@ def mi_funcion(parametro1, parametro2):
     # Cuerpo de la función
     pass
 
+def calculate_area(length, width):
+    """Calculate the area of a rectangle.
+
+    Args:
+        length (float): The length of the rectangle.
+        width (float): The width of the rectangle.
+
+    Returns:
+        float: The area of the rectangle.
+
+    Raises:
+        ValueError: If either length or width is negative.
+    """
+    if length < 0 or width < 0:
+        raise ValueError("Length and width must be positive.")
+    return length * width
+
 
 class MiClase:
     """Breve descripción de la clase.
