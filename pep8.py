@@ -21,6 +21,8 @@ def mi_funcion(parametro1, parametro2):
 def calculate_area(length, width):
     """Calculate the area of a rectangle.
 
+    Description 
+    
     Args:
         length (float): The length of the rectangle.
         width (float): The width of the rectangle.

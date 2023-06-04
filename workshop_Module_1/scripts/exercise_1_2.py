@@ -23,9 +23,8 @@ def main():
             print(f'{"%.2f"%f} °F is equal to {c} °C.')
         else:
             c = "%.2f"%convert_F_to_C(f)
-            print(f'{"%.2f"%f} °F is equal to {c} °C; but {c} \
-                in under the absolute zero -the lowest possible \
-                temperature theoretically (-273.15 °C).')
+            print(f'{"%.2f"%f} °F is equal to {c} °C; but \
+                temperature not feasible, temperature below the absolute zero.')
             
     except Exception as error: 
         
