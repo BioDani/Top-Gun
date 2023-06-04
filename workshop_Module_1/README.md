@@ -44,12 +44,12 @@
     Create a Python program that reads a text file and counts the occurrences of each word using a dictionary. The program should print the words and their counts.
 # Python Programming Best Practices
 
-1. [Exercise 1](scripts/exercise_5_1.py)
+1. [Exercise 1](scripts/test_exercise_5_1.py)
 
     Write a Python function called is_palindrome that checks if a given word is a palindrome. The function should have proper error handling and be tested with unittest.
 
 
-2. [Exercise 2](scripts/exercise_5_2.py)
+2. [Exercise 2](scripts/test_exercise_5_2.py)
 
     Create a Python decorator called timer that measures the time taken to execute a function. Use this decorator on a function that sorts a list of random numbers and prints the sorted list.
 
