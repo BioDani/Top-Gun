@@ -46,6 +46,7 @@ def main():
     print(account_1.depositing(100))
     print(account_1.withdrawing(50))
     print(account_1.withdrawing(2500))
+    print(account_1.transactions)
     
 if __name__ == '__main__':
     main()
