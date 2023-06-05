@@ -16,7 +16,7 @@ def generate_list( start: int, end: int, n_elements: int):
 @time_decorator
 def sort_list( lst: list):
     lst.sort
-    return lst
+    print(lst)
 
 def main():
     lst = generate_list(start=1,end=10,n_elements=10)

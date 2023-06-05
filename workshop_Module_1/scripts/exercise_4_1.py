@@ -3,6 +3,11 @@ import uuid
 
 class BankAccount():
     
+    """Class for create a new bank account.
+
+    This class alows create a nee bank account, and all relative activities: depositing, withdrawing and check balance. 
+    """
+    
     def __init__(self,
                  customer_id: str,
                  balance: float = 0):
