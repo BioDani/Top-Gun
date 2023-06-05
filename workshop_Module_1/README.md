@@ -49,7 +49,7 @@
     Write a Python function called is_palindrome that checks if a given word is a palindrome. The function should have proper error handling and be tested with unittest.
 
 
-2. [Exercise 2](scripts/test_exercise_5_2.py)
+2. [Exercise 2](scripts/exercise_5_2.py)
 
     Create a Python decorator called timer that measures the time taken to execute a function. Use this decorator on a function that sorts a list of random numbers and prints the sorted list.
 
